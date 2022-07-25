@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: orange;
+    flex:  1;
+    min-width: 150px;
+    /* height: 100vh; */ 
+    
+}
+.nav li {
+    list-style: none;
+    font-size: 16px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid snow;
+    padding: 6px 0;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+
+}

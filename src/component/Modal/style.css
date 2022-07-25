@@ -1,0 +1,63 @@
+.modal {
+    background-color:rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+
+.modal__form{
+   margin: 120px auto;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    width: 600px;
+   
+}
+.form-group {
+    margin-bottom: 10   px;
+}.form-group .form-label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.form-group .form-control {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.modal__form .btn{
+   
+    margin: 10px auto;
+    font-size: 20px;
+    padding: 10px 32px;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.modal__form .button{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.button .btn-add{
+    background-color: rgb(105, 211, 63);
+}
+.button .btn-add:hover{
+    color: white;
+    background-color:  rgba(105, 211, 63, 0.8);
+}
+.button .btn-close:hover {
+    color: white;
+    background-color:  rgba(219, 99, 18, 0.8);
+}
+.button .btn-close{
+    background-color: rgb(219, 99, 18);
+}
+.hide {
+    display: none;
+}

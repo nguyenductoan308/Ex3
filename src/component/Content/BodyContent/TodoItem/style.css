@@ -1,0 +1,35 @@
+.mb-4{
+    margin-bottom: 4px !important;
+}
+.mb-8{
+    margin-bottom: 8px !important;
+}
+
+.card__item{
+    width: 200px;
+    height: 220px;
+    border: 1px solid black;
+    padding: 16px 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.card__item .text{
+    font-weight: 600;
+}
+
+.card__item .title {
+    border-top: 2px solid rgb(216, 59, 236);
+}
+.card__item .btn{
+    display: block;
+    margin: 6px auto;
+    padding: 4px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(59, 104, 229);
+    color: #fff;
+}

@@ -1,0 +1,9 @@
+.todolist{
+    background-color: rgb(115, 167, 245);   
+    flex: 8;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,32 @@
+.header {
+    height: 52px;
+    background-color: rgb(52, 91, 218);
+    padding: 8px ;
+    position: relative;
+}
+.header .btn {
+    font-size: 16px;
+    padding: 10px 24px;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.header .input-search {
+    padding: 8px 16px;
+    border-radius: 5px;
+    min-width: 300px;
+    font-size: 16px;
+    position: absolute;
+    right: 150px;
+}
+.header .btn-search {
+    position: absolute;
+    right: 16px;
+}
+.header .btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(84, 131, 219);
+}
